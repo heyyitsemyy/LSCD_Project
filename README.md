@@ -1,5 +1,6 @@
 # LSCD Project
 This project is currently a work-and-progress for one of my classes (Medical Informatics Programming Laboratory).
+NOTE: Due to patient confidentiality, I am unable to provide the eye scan images that were used train and test the model.
 
 Goal/Objective: Create a machine learning model to identify the best location to extract stem cell in individuals with limbal stem cell deficiency based on eye scans. This is one part of a larger project.
 
@@ -7,7 +8,7 @@ Information:
 - ML Model: logistic regression
 - Evaluation Metric: Precision and Recall 
 - Data Preparation: Created masks and used the Pyradiomics Python Library to extract features from each image (radiomics_features function). Appended labels and normalized each column of the feature matrix. 
-- Results: Average Recall: 0.764 Average Precision: 0.820
+- Results: Average Recall: 0.764 Average Precision: 0.820 (Screenshot Attached)
 
 Functions:
 - radiomics_features: creates a feature matrix for training
